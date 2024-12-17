@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>웹저기</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-jp.min.css" />
+  </head>
+  <body>
+    <div id="wrap">
+      <!-- 전체 화면을 덮는 검정 배경 -->
+      <div id="overlay"></div>
+      <div class="header">
+        バレーボール宣伝部
+      </div>
+
+      <!-- 네비게이션 바 -->
+      <nav class="mynavbar">
+    <ul class="justify-content-center">
+      <li class="nav-item">
+        <a href="#" class="nav-link" data-target="intro">INTRODUCTION</a>
+        <div class="dropdown" id="intro">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <img src="image/positioning-01.png" width="500px">
+              </div>
+              <div class="col">
+                <ul class="nav-secondary">
+                  <li class="nav-secondary-subtitle">バレーボールのポジションとは？</li>
+                  <li><a href="#">バレーボールとは</a></li>
+                  <li><a href="#">バレーボール宣伝部</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a href="position.html" class="nav-link" target="_self" data-target="position">POSITION</a>
+        <div class="dropdown" id="position">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <img src="image/positioning-01.png" width="500px">
+              </div>
+              <div class="col">
+                <ul class="nav-secondary">
+                  <li class="nav-secondary-subtitle">バレーボールのポジションとは？</li>
+                  <li><a href="position.html" target="_self">アウトサイドヒッター(OH)</a></li>
+                  <li><a href="#">ミドルブロッカー(MB)</a></li>
+                  <li><a href="#">セッター(S)</a></li>
+                  <li><a href="#">オポジット(OP)</a></li>
+                  <li><a href="#">リベロ(L)</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link" data-target="rule">RULE</a>
+        <div class="dropdown" id="rule">
+          <ul>
+            <li><a href="#">기본 규칙</a></li>
+            <li><a href="#">심판 판정</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link" data-target="animation">ANIMATION</a>
+        <div class="dropdown" id="animation">
+          <ul>
+            <li><a href="#">애니메이션 목록</a></li>
+            <li><a href="#">명장면</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+      </nav>
+
+      <!-- 메인 콘텐츠 -->
+      <div class="content">
+        <div class="main_content">
+          <div class="main_text">さあ今日も<br>バレーボールは面白いと<br>証明しよう。</div>
+          <div class="main_image"><img width="100%" src="image/haikyucom01_wp1920_1200.jpg"></div>
+        </div>
+      </div>
+    </div>
+    <footer>このサイトは非公式のものです。</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
